@@ -103,7 +103,7 @@ function createRandomPassword (length, includeUppercase, includeLowercase, inclu
 
 window.addEventListener("DOMContentLoaded", makePassword);
 
-copyButton,addEventListener("click", () => {
+copyButton.addEventListener("click", () => {
     if(!passwordInput.value) return
 
     navigator.clipboard
